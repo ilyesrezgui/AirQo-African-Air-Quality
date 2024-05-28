@@ -1,25 +1,24 @@
 # AirQo-African-Air-Quality
 Estimation and validation of PM2.5 levels using satelitte and ground observations in selected african cities for env justice
 
-Variables Understanding: 
+Variables Understanding and Personal Data Analysis: 
 * id : Id of the IOT sensor
 * site_id : Each city is divided into sites. this reprents the sites id of the speicifc city
 * site_latitude
 * site_longitude
 * city : City containing that IOT device
 * country: Country containing that IOT device
-* date : Day the info was captured
+* date : Day the info was captured. PM2.5 levels are the highest from september 2023 to January 2024
 * hour : Hour the infor was captured
-* sulphurdioxide_so2_column_number_density
-* sulphurdioxide_so2_column_number_density_amf
-* sulphurdioxide_so2_slant_column_number_density
-* sulphurdioxide_cloud_fraction
+* sulphurdioxide_so2_column_number_density :PM2.5 is highest when this is between -0,0005 and 0,0005.
+* sulphurdioxide_so2_column_number_density_amf: PM2.5 is highest when this is between 0,2 and 1.
+* sulphurdioxide_so2_slant_column_number_density: PM2.5 is highest when this is between -0,00025 and 0,0005.
 * sulphurdioxide_sensor_azimuth_angle
 * sulphurdioxide_sensor_zenith_angle
-* sulphurdioxide_solar_azimuth_angle
+* sulphurdioxide_solar_azimuth_angle : Highest between -150 and -100
 * sulphurdioxide_solar_zenith_angle
 * sulphurdioxide_so2_column_number_density_15km
-* month : Month the data was captured in
+* month : Month the data was captured in. PM2.5 levels are the highest from september to January 
 * carbonmonoxide_co_column_number_density
 * carbonmonoxide_h2o_column_number_density
 * carbonmonoxide_cloud_height
