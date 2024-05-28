@@ -2,14 +2,14 @@
 Estimation and validation of PM2.5 levels using satelitte and ground observations in selected african cities for env justice
 
 Variables Understanding: 
-* id
-* site_id
+* id : Id of the IOT sensor
+* site_id : Each city is divided into sites. this reprents the sites id of the speicifc city
 * site_latitude
 * site_longitude
-* city
-* country
-* date
-* hour
+* city : City containing that IOT device
+* country: Country containing that IOT device
+* date : Day the info was captured
+* hour : Hour the infor was captured
 * sulphurdioxide_so2_column_number_density
 * sulphurdioxide_so2_column_number_density_amf
 * sulphurdioxide_so2_slant_column_number_density
@@ -81,5 +81,5 @@ Variables Understanding:
 * cloud_sensor_zenith_angle
 * cloud_solar_azimuth_angle
 * cloud_solar_zenith_angle
-* pm2_5
+* pm2_5 : The level of pm2_5 to predict
 
