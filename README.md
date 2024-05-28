@@ -19,7 +19,7 @@ Variables Understanding:
 * sulphurdioxide_solar_azimuth_angle
 * sulphurdioxide_solar_zenith_angle
 * sulphurdioxide_so2_column_number_density_15km
-* month
+* month : Month the data was captured in
 * carbonmonoxide_co_column_number_density
 * carbonmonoxide_h2o_column_number_density
 * carbonmonoxide_cloud_height
