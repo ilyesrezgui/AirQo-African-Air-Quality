@@ -9,4 +9,7 @@ We can see that the PM2.5 has a right skew.
 * Square Root Transformed: Skewness = 2.529693698583593, Kurtosis = 14.19940623948297
 * Box-Cox Transformed: Skewness = -0.03428424477994078, Kurtosis = 0.9151702451491679
 * Yeo-Johnson Transformed: Skewness = -0.03428420696278356, Kurtosis = 0.9151702374814694
-
+Visual Represnetation of skeweness :
+![Approach](Skewness.png)
+For the following figure the more points are aligned with the straight line the better it is the approach for reducing skewness of PM2.5
+![Approach](skew.png)
