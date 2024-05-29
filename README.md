@@ -10,11 +10,14 @@ We can see that the PM2.5 has a right skew.
 * Box-Cox Transformed: Skewness = -0.03428424477994078, Kurtosis = 0.9151702451491679
 * Yeo-Johnson Transformed: Skewness = -0.03428420696278356, Kurtosis = 0.9151702374814694
 Visual Represnetation of skeweness :
-For the following figure the more points are aligned with the straight line the better it is the approach for reducing skewness of PM2.5
+For the following figure the more points are aligned with the straight line the better it is the approach for reducing skewness of PM2.5.
 ![Approach](Skew.png)
-The histogram of the PM2.5 before Yeo-Johnson transformation
+After studying the skewness I decided to not opt for any transformation. as it shifted the PM2.5 variation interval. However I worked around handling outliers using the winsorize module.
+The histogram of the PM2.5 before handling outliers
 ![Approach](Targetb.png)
-The histogram of the PM2.5 after Yeo-Johnson transformation
-![Approach](targetaft.png)
+The histogram of the PM2.5 after handling outliers
+![Approach](outliers.png)
+
+
 
 
