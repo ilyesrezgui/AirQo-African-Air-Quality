@@ -1,4 +1,4 @@
-# AirQo-African-Air-Quality
+# AirQo-African-Air-Quality (2023/2024 Data)
 Estimation and validation of PM2.5 levels using satelitte and ground observations in selected african cities for env justice
 
 Data Analysis: 
