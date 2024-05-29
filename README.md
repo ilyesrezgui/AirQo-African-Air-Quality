@@ -12,4 +12,4 @@ We can see that the PM2.5 has a right skew.
 Visual Represnetation of skeweness :
 ![Approach](Skewness.png)
 For the following figure the more points are aligned with the straight line the better it is the approach for reducing skewness of PM2.5
-![Approach](skew.png)
+![Approach](Skew.png)
