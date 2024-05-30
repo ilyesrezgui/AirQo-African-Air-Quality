@@ -19,11 +19,11 @@ After studying the skewness I decided to not opt for any transformation. as it s
 
 The histogram of the PM2.5 before handling outliers
 
-![Approach](Targetb.png)
+<img src="Targetb.png" alt="Approach" width="500"/>
 
 The histogram of the PM2.5 after handling outliers. A percentage of 3% was selected after an emperical analysis.
 
-![Approach](outliers.png)
+<img src="outliers.png" alt="Approach" width="500"/>
 
 
 
