@@ -17,13 +17,6 @@ For the following figure the more points are aligned with the straight line the 
 
 After studying the skewness I decided to not opt for any transformation. as it shifted the PM2.5 variation interval. However I worked around handling outliers using the winsorize module.
 
-The histogram of the PM2.5 before handling outliers
-
-<img src="Targetb.png" alt="Approach" width="500"/>
-
-The histogram of the PM2.5 after handling outliers. A percentage of 3% was selected after an emperical analysis.
-
-<img src="outliers.png" alt="Approach" width="500"/>
 
 
 
